@@ -1,0 +1,59 @@
+body{
+	font-family: Comic Sans MS, sans serif;
+
+}
+
+.navbar-brand{
+	color: black;
+	font-size: 2em;
+	font-weight: bold;
+	padding-left: 15px;
+
+}
+
+.navbar-toggler{
+	display: none;
+}
+.row {
+  width: 100%;
+}
+div.menu-content{
+	background-color: #DECBEA;
+	padding: 20px;
+	border: 1px solid black;
+	position: relative;
+	margin: 15px;
+	margin-left: 25px
+	
+}
+
+.menu-title{
+	text-align: center;
+	font-size: 1.3em;
+	font-weight: bold;
+
+}
+.container{
+	
+	max-width: 100%;
+}
+.navbar-header button.navbar-toggler, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.nav-item .nav-link {
+	text-decoration: none;
+	color: black;
+	padding: 0px;
+	height: 10px;
+	margin-bottom: 0;
+}
+.nav-item{
+	padding: 0px;
+	height: 25px;
+}
+
+@media (max-width: 767px) {
+	.navbar-toggler{
+	display: inline-block;
+}
+}
